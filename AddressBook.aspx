@@ -5,6 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
   <h1>Address Book</h1>
   <p>Page rendered at <%= DateTime.Now.ToLongTimeString() %>.</p>
+
   <p>
   <asp:LinkButton id="addEmployeeButton" runat="server"
     Text="Add New Employee" onclick="addEmployeeButton_Click" />
